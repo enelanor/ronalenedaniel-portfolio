@@ -1,0 +1,2 @@
+// scroll effect
+AOS.init();
