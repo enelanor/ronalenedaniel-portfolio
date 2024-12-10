@@ -176,6 +176,29 @@
         </section>
     </main>
 
+    <section class="contact-me" id="contact">
+        <h1>Let’s Connect!</h1>
+        <form action="https://formspree.io/f/your_form_id" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="_replyto" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="button">Send Message</button>
+        </form>
+    </section>
+
     <footer>
         <div class="logo-footer">
              <a href="index.html"><img src="/imgs/main-logo.png" alt="logo"></a>
